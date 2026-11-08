@@ -14,14 +14,14 @@ void print_table(int size)
 		{
 			if (col == 1)
 			{
-				printf("%d", row * col);
+				printf(" %d", row * col);
 			}
 			else
 			{
 				printf(" %d", row * col);
 			}
 		}
-		printf("\n");
+		printf("\ n");
 	}
 }
 
