@@ -1,1 +1,1 @@
-char *string_toupper(char *);
+char *leet(char *);
