@@ -1,1 +1,1 @@
-char *leet(char *);
+char *cap_string(char *);
