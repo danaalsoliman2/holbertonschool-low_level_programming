@@ -29,6 +29,14 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
+		else if (choice >= 1 && choice <= 4)
+		{
+			/* سيتم إضافة تنفيذ العمليات في المهام القادمة */
+		}
+		else
+		{
+			printf("Invalid choice\n");
+		}
 	}
 
 	return (0);
