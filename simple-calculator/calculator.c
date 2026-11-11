@@ -8,6 +8,7 @@
 int main(void)
 {
 	int choice;
+	int a, b;
 
 	printf("Simple Calculator\n");
 	while (1)
@@ -29,9 +30,19 @@ int main(void)
 			printf("Bye!\n");
 			break;
 		}
-		else if (choice >= 1 && choice <= 4)
+		else if (choice == 1)
 		{
-			/* سيتم إضافة تنفيذ العمليات في المهام القادمة */
+			printf("A: ");
+			if (scanf("%d", &a) != 1)
+				break;
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				break;
+			printf("Result: %d\n", a + b);
+		}
+		else if (choice >= 2 && choice <= 4)
+		{
+			/* سيتم إضافة باقي العمليات لاحقاً */
 		}
 		else
 		{
