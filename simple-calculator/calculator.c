@@ -50,9 +50,19 @@ int main(void)
 				break;
 			printf("Result: %d\n", a - b);
 		}
-		else if (choice >= 3 && choice <= 4)
+		else if (choice == 3)
 		{
-			/* سيتم إضافة باقي العمليات لاحقاً */
+			printf("A: ");
+			if (scanf("%d", &a) != 1)
+				break;
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				break;
+			printf("Result: %d\n", a * b);
+		}
+		else if (choice == 4)
+		{
+			/* سيتم إضافة عملية القسمة في المهمة التالية */
 		}
 		else
 		{
