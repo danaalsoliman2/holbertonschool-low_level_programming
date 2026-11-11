@@ -62,7 +62,20 @@ int main(void)
 		}
 		else if (choice == 4)
 		{
-			/* سيتم إضافة عملية القسمة في المهمة التالية */
+			printf("A: ");
+			if (scanf("%d", &a) != 1)
+				break;
+			printf("B: ");
+			if (scanf("%d", &b) != 1)
+				break;
+			if (b == 0)
+			{
+				printf("Error: division by zero\n");
+			}
+			else
+			{
+				printf("Result: %.1f\n", (float)a / b);
+			}
 		}
 		else
 		{
